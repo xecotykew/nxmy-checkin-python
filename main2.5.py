@@ -102,25 +102,7 @@ def ShutDownIt( shutdownchs , shutdown_delay):
 		return 0
 
 # Sending Email if checkin/checkout succeed
-'''def sendEmail(receivers, content):
-	try:
-		# 第三方 SMTP 服务
-		mail_host = "smtp.qq.com"  # SMTP服务器
-		mail_user = "xuan6327"  # 用户名
-		mail_pass = "ruhmlnpjpyogbbha"  # 授权密码，非登录密码
-		sender = 'xuan6327@qq.com'  # 发件人邮箱
-		title = '签到信息'
-		message = MIMEText(content, 'plain', 'utf-8')
-		message['From'] = sender
-		message['To'] = receivers
-		message['Subject'] = title
-		smtpObj = smtplib.SMTP_SSL(mail_host, 587)
-		smtpObj.login(mail_user, mail_pass)
-		smtpObj.sendmail(sender, receivers, message.as_string())
-		print("mail has been send successfully.")
-	except smtplib.SMTPException as e:
-		print(e)
-'''
+
 
 # get current date
 def getDate():
