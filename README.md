@@ -5,10 +5,13 @@ a chenkin code using webdriver mod
 
 UserId: 10000000
 #用户名；登录的工号
+
 UserPass: xxxxxxxxx@!#
 #密码；文本
+
 CheckInHour: 8             
 #签入小时；
+
 CheckInMin: 30             
 #签入分钟；
 CheckOutHour: 18           
