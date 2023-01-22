@@ -4,33 +4,33 @@ a chenkin code using webdriver mod
 对配置文件进行修改，配置文件的基本内容包含如下：
 
 UserId: 10000000           
-	#用户名；登录的工号
+#用户名；登录的工号
 UserPass: xxxxxxxxx@!#        
-	#密码；文本
+#密码；文本
 CheckInHour: 8             
-	#签入小时；
+#签入小时；
 CheckInMin: 30             
-	#签入分钟；
+#签入分钟；
 CheckOutHour: 18           
-	#签出小时；
+#签出小时；
 CheckOutMin: 30            
-	#签出分钟；
+#签出分钟；
 CheckRandom: 10            
-	#随机区间(分钟)；此设置包含了尝试每次任务的间隔，亦作为随机时间的区间，可以减少同一时间点击导致所有时间相同
+#随机区间(分钟)；此设置包含了尝试每次任务的间隔，亦作为随机时间的区间，可以减少同一时间点击导致所有时间相同
 CheckIp: 10.186.130.118    
-	#服务地址
+#服务地址
 CheckUrl: http://10.186.130.118:8888/TM3/main/    
-	#服务应用地址
+#服务应用地址
 CheckApp: http://10.186.130.118:8888/TM3/kqsz/attendance/qd/index.jsp?panelId=w_10723    
-	#服务子程序地址
+#服务子程序地址
 LoopType: SystemSleep      
-	#三种工作模式： SystemShutdown每日任务完成后关机, SystemSleep每日任务完成后休眠, LoopContinue一直运行
+#三种工作模式： SystemShutdown每日任务完成后关机, SystemSleep每日任务完成后休眠, LoopContinue一直运行
 vacation_start_time: 2020-07-10 06:00
-	#节假日开始时间，暂停任务的开始，格式YYYY-MM-DD"
+#节假日开始时间，暂停任务的开始，格式YYYY-MM-DD"
 vacation_end_time: 2020-08-05 23:00
-	#节假日结束时间，暂停任务的结束，格式YYYY-MM-DD"
+#节假日结束时间，暂停任务的结束，格式YYYY-MM-DD"
 receivers: xecotykew@gmail.com
-	#设置通知邮箱
+#设置通知邮箱
 
 
 version 2.3：
