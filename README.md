@@ -16,7 +16,7 @@ CheckApp: http://10.186.130.118:8888/TM3/kqsz/attendance/qd/index.jsp?panelId=w_
 LoopType: SystemSleep     #三种工作模式： SystemShutdown每日任务完成后关机, SystemSleep每日任务完成后休眠, LoopContinue一直运行
 vacation_start_time: 2020-07-10 06:00                 #节假日开始时间，暂停任务的开始，格式YYYY-MM-DD"
 vacation_end_time: 2020-08-05 23:00                   #节假日结束时间，暂停任务的结束，格式YYYY-MM-DD"
-receivers: xecotykew@gmail.com                        #设置通知邮箱
+receivers: 11111@gmail.com                        #设置通知邮箱
 
 
 version 2.3：
