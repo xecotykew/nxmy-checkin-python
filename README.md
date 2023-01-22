@@ -3,9 +3,9 @@ a chenkin code using webdriver mod
 本软件使用webdriver库geckodriver的来实现部分爬虫功能，请注意目前仅支持火狐浏览器，
 对配置文件进行修改，配置文件的基本内容包含如下：
 
-UserId: 15000000           
+UserId: 10000000           
 	#用户名；登录的工号
-UserPass: Nxmy1234@        
+UserPass: xxxxxxxxx@!#        
 	#密码；文本
 CheckInHour: 8             
 	#签入小时；
